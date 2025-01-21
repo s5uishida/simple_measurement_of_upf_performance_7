@@ -96,7 +96,6 @@ Each VMs are as follows.
 | VM-DN | Data Network Gateway  | 192.168.0.152/24 | Ubuntu 24.04 | 2 | 2GB | 10GB |
 | VM2 | PacketRusher RAN&UE | 192.168.0.131/24 | Ubuntu 24.04 | 2 | 2GB | 10GB |
 
-
 **Each VM-UP(UPFs) are as follows.**
 | # | SW | Date | Commit | OS |
 | --- | --- | --- | --- | --- |
