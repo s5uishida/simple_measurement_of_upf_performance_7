@@ -1081,11 +1081,11 @@ The measurements were taken in the following pattern:
 3. `ping 192.168.16.152 -c 10`
 4. free5GC UPF connects to the free5GC CN, not the Open5GS CN.
 
-| # | UPF | Date | 1) TCP<br>throughput | 2) UDP<br>throughput | 2) UDP<br>packet loss | 3) RTT<br>(msec) | 
+| # | UPF | Date | TCP[1]<br>throughput | UDP[2]<br>throughput | UDP[2]<br>packet loss | RTT[3]<br>(msec) | 
 | --- | --- | --- | --- | --- | --- | --- |
 | a-1 | Open5GS UPF v2.7.2 (TUN) | 2025.01.12 | S:790 Mbps<br>R:789 Mbps | S:2.43 Gbps<br>R:1.14 Gbps | 53 % | 0.585 |
 | a-2 | Open5GS UPF v2.7.2 (TAP) | 2025.01.12 | S:741 Mbps<br>R:740 Mbps | S:2.46 Gbps<br>R:1.18 Gbps | 52 % | 0.602 |
-| b | **4) free5GC UPF v1.2.4** | 2025.01.02 | S:2.34 Gbps<br>R:2.34 Gbps | S:1.47 Gbps<br>R:1.00 Gbps | 32 % | 0.490 |
+| b | **free5GC UPF v1.2.4[4]** | 2025.01.02 | S:2.34 Gbps<br>R:2.34 Gbps | S:1.47 Gbps<br>R:1.00 Gbps | 32 % | 0.490 |
 | c | UPG-VPP v1.13.0 | 2024.03.25 | S:3.70 Gbps<br>R:3.70 Gbps | S:2.14 Gbps<br>R:1.79 Gbps | 16 % | 0.457 |
 | d | eUPF v0.6.4 (native mode) | 2024.12.23 | S:4.24 Gbps<br>R:4.24 Gbps | S:2.39 Gbps<br>R:2.28 Gbps | 4.5 % | 0.444 |
 
