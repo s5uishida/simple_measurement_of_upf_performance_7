@@ -1442,7 +1442,7 @@ I would appreciate it if you could use this as a reference as a configuration ex
 I simply measured the raw communication performance between VM-UP and VM-DN.
 This is a measurement of the N6 interface and therefore does not include communication over GTP-U.
 
-| A--B | 1) TCP<br>throughput | 2) UDP<br>throughput | 2) UDP<br>packet loss | 3) RTT<br>(msec) |
+| A--B | TCP[1]<br>throughput | UDP[2]<br>throughput | UDP[2]<br>packet loss | RTT[3]<br>(msec) |
 | --- | --- | --- | --- | --- |
 | VM-UP --(N6)-- VM-DN | S:25.6 Gbps<br>R:25.5 Gbps | S:2.99 Gbps<br>R:2.83 Gbps | 6.9 % | 0.260 |
 
