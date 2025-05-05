@@ -769,7 +769,7 @@ Next, configure NAPT and routing to N6 IP address of UPF.
 ```
 According to the instructions in [here](https://github.com/s5uishida/simple_confirmed_info_for_mobile_network#footnotes) [3], setup it as follows.
 ```
-# ip link set ens20 mtu 1450
+# ip link set ens20 mtu 1456
 ```
 
 <a id="build"></a>
