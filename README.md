@@ -34,6 +34,7 @@ And this is a very simple measurement, and according to [this comment](https://g
   - [b. Network settings of free5GC 5GC UPF](#network_settings_up_b)
   - [c. Network settings of UPG-VPP](#network_settings_up_c)
   - [d. Network settings of eUPF](#network_settings_up_d)
+  - [Network settings of PacketRusher](#network_settings_packet_rusher)
   - [Network settings of Data Network Gateway](#network_settings_dn)
 - [Build Open5GS, free5GC, UPFs and PacketRusher](#build)
 - [Run Open5GS, free5GC and UPFs](#run)
@@ -751,6 +752,15 @@ Next, down the interface `ens18` of the VM-UP and set the VM-DN IP address to de
 # ip route add default via 192.168.16.152 dev ens22
 ```
 
+<a id="network_settings_packet_rusher"></a>
+
+### Network settings of PacketRusher
+
+According to the instructions in [here](https://github.com/s5uishida/simple_confirmed_info_for_mobile_network#footnotes) [6], setup it as follows.
+```
+# ip link set val0000001000 mtu 1456
+```
+
 <a id="network_settings_dn"></a>
 
 ### Network settings of Data Network Gateway
@@ -766,10 +776,6 @@ Next, configure NAPT and routing to N6 IP address of UPF.
 ```
 # iptables -t nat -A POSTROUTING -s 10.45.0.0/16 -j MASQUERADE
 # ip route add 10.45.0.0/16 via 192.168.16.151 dev ens20
-```
-According to the instructions in [here](https://github.com/s5uishida/simple_confirmed_info_for_mobile_network#footnotes) [3], setup it as follows.
-```
-# ip link set ens20 mtu 1456
 ```
 
 <a id="build"></a>
