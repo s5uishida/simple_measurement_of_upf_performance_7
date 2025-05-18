@@ -756,7 +756,7 @@ Next, down the interface `ens18` of the VM-UP and set the VM-DN IP address to de
 
 ### Network settings of PacketRusher
 
-To avoid IP fragmentation, set as follows according to the instructions in [here](https://github.com/s5uishida/simple_confirmed_info_for_mobile_network#footnotes) [6].
+To avoid IP fragmentation, after running PacketRusher, set as the following example according to the instructions in [here](https://github.com/s5uishida/simple_confirmed_info_for_mobile_network#footnotes) [6].
 ```
 # ip link set val0000001000 mtu 1456
 ```
