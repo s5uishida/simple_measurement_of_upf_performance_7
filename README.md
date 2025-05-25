@@ -166,7 +166,7 @@ Please refer to the following for building Open5GS, free5GC, UPFs and PacketRush
 - Open5GS v2.7.2 (2025.01.12) - https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources/
 - free5GC v3.4.4 (2025.01.03) - https://free5gc.org/guide/
 - free5GC UPF (go-upf) v1.2.4 (2025.01.02) - https://free5gc.org/guide/
-- UPG-VPP v1.13.0 (2024.03.25) - https://github.com/s5uishida/install_vpp_upf_dpdk#annex_1
+- UPG-VPP v1.13.0 (2024.03.25) - https://github.com/s5uishida/install_vpp_upf_dpdk
 - eUPF v0.6.4 (2024.12.23) - https://github.com/s5uishida/install_eupf
 - PacketRusher 20240521 (2024.11.27) - https://github.com/HewlettPackard/PacketRusher/wiki
 
@@ -584,10 +584,10 @@ Please refer to the following for building Open5GS, free5GC, UPFs and PacketRush
 
 See [here](https://github.com/s5uishida/install_vpp_upf_dpdk#changes_up) for the original files.
 
-- `openair-upf/startup.conf`  
+- `upg-vpp/startup.conf`  
 There is no change.
 
-- `openair-upf/init.conf`  
+- `upg-vpp/init.conf`  
 There is no change.
 
 <a id="changes_up_d"></a>
@@ -786,7 +786,7 @@ Please refer to the following for building Open5GS, free5GC, UPFs and PacketRush
 - Open5GS v2.7.2 (2025.01.12) - https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources/
 - free5GC v3.4.4 (2025.01.03) - https://free5gc.org/guide/
 - free5GC UPF (go-upf) v1.2.4 (2025.01.02) - https://github.com/s5uishida/install_goupf
-- UPG-VPP v1.13.0 (2024.03.25) - https://github.com/s5uishida/install_vpp_upf_dpdk#annex_1
+- UPG-VPP v1.13.0 (2024.03.25) - https://github.com/s5uishida/install_vpp_upf_dpdk
 - eUPF v0.6.4 (2024.12.23) - https://github.com/s5uishida/install_eupf
 - PacketRusher 20240521 (2024.11.27) - https://github.com/HewlettPackard/PacketRusher/wiki
 
