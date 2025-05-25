@@ -837,7 +837,7 @@ Please use the configuration files changed for TAP interface.
 
 #### c. Run UPG-VPP
 
-See [this](https://github.com/s5uishida/install_vpp_upf_dpdk#run_upg_vpp).
+See [this](https://github.com/s5uishida/install_vpp_upf_dpdk#run).
 
 <a id="run_up_d"></a>
 
