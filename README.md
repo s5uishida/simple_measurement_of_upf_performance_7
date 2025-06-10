@@ -1537,4 +1537,5 @@ I would like to thank all the excellent developers and contributors who created 
 
 ## Changelog (summary)
 
-- [2025.01.21] Initial release.
+- [2025.01.21] Initial release. This measurement using PacketRusher is an update version in which the virtualization environment has been changed from Virtualbox to Proxmox VE. The previous measurements on Virtualbox VMs can be found below.  
+  [Simple Measurement of UPF Performance](https://github.com/s5uishida/simple_measurement_of_upf_performance)
